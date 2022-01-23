@@ -46,7 +46,7 @@ def get_year(years, min_max='min'):
         else:
             return ''
 
-def load_data(inpath, infile, sep=','):
+def load_clean_data(inpath, infile, sep=','):
     df = pd.read_csv(inpath + infile, sep=sep, low_memory=False)
     df_clean = pd.DataFrame()
 
@@ -73,7 +73,7 @@ def main(data_path, sources):
     #     get_data(source=sources[source], outpath=data_path)
 
     # load and clean data
-    df = load_data(inpath=data_path, infile=sources['data']['file'])
+    df = load_clean_data(inpath=data_path, infile=sources['data']['file'])
 
 if __name__ == '__main__':
     # Enforcing specific commit (cc6310135aeafd01fb03588929fb9d00c5cbc606) from Jan 17, 2022 because data is manually input with no tagged releases.
