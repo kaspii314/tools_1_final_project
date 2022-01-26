@@ -101,6 +101,14 @@ group by department
 order by department;
 
 -- classification
+select sum(1) 
+from(
+	select classification, count(*) as cnt
+	from open_access
+	where classification is null
+	group by classification
+	order by count(*) desc
+) t;
 
 -- object_name
 select sum(1) 
