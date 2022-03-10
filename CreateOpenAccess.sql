@@ -66,9 +66,8 @@ object_number text
 ,primary key (object_id)
 );
 
-/*
+
 -- Must have header in text file because there are some columns that are always blank.
 \COPY open_access(object_number,is_highlight,is_timeline_work,is_public_domain,object_id,gallery_number,department,accessionyear,object_name,title,culture,period,dynasty,reign,portfolio,constituent_id,artist_role,artist_prefix,artist_display_name,artist_display_bio,artist_suffix,artist_alpha_sort,artist_nationality,artist_begin_date,artist_end_date,artist_gender,artist_ulan_url,artist_wikidata_url,object_date,object_begin_date,object_end_date,medium,dimensions,credit_line,geography_type,city,state,county,country,region,subregion,locale,locus,excavation,river,classification,rights_and_reproduction,link_resource,object_wikidata_url,metadata_date,repository,tags,tags_aat_url,tags_wikidata_url
 ,accessionyear_clean,artist_begin_date_clean,artist_end_date_clean)
-FROM '/Users/kaspii/github/tool1_final_project/data/MetObjects_clean.csv' DELIMITER '|' csv HEADER;
-*/
+FROM '/Users/kaspii/du/tool1_final_project/data/MetObjects_clean.csv' DELIMITER '|' csv HEADER;
