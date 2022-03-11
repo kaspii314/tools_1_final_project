@@ -6,63 +6,6 @@ The Metropolitan Museum of Art ("The Met") launched its <a href="https://www.met
 
 This research project utilizes <a href="https://github.com/metmuseum/openaccess">The Met Open Access CSV</a>, which contains 52 manually cataloged attributes describing the artwork itself, artists, cultures, geographies, classifications, department, and gallery numbers. Additionally, the data file notes the year The Met took ownership of the artwork (Accession Year), as well as indicates if the artwork is a highlight piece, part of the <a href="https://www.metmuseum.org/toah/">Heilbrunn Timeline of Art History</a>, or in the public domain.
 
-### The Met Open Access CSV Data Elements
-* Object Number
-* Is Highlight
-* Is Timeline Work
-* Is Public Domain
-* Object ID
-* Gallery Number
-* Department
-* Accession Year
-* Object Name
-* Title
-* Culture
-* Period
-* Dynasty
-* Reign
-* Portfolio
-* Constituent ID
-* Artist Role
-* Artist Prefix
-* Artist Display Name
-* Artist Display Bio
-* Artist Suffix
-* Artist Alpha Sort
-* Artist Nationality
-* Artist Begin Date
-* Artist End Date
-* Artist Gender
-* Artist ULAN URL
-* Artist Wikidata URL
-* Object Date
-* Object Begin Date
-* Object End Date
-* Medium
-* Dimensions
-* Credit Line
-* Geography Type
-* City
-* State
-* County
-* Country
-* Region
-* Subregion
-* Locale
-* Locus
-* Excavation
-* River
-* Classification
-* Rights and Reproduction
-* Link Resource
-* Object Wikidata URL
-* Metadata Date
-* Repository
-* Tags
-* Tags AAT URL
-* Tags Wikidata URL
-
-
 
 ## Research Questions
 
@@ -77,5 +20,8 @@ This main topic leads to several secondary questions:
 We begin by answering our secondary research questions using all of the dataset's observations and attributes. The output of this preliminary analysis is a final dataset that is then used for data mining. Using Random Forest and other visualizations, we attempt to determine which features of this final dataset make it likely that an artwork is a highlight piece.
 
 
+## GitHub Repo
+<a href="https://github.com/kaspii314/tool1_final_project">https://github.com/kaspii314/tool1_final_project</a>
 
 ## Binder Link
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kaspii314/tool1_final_project/main?labpath=https%3A%2F%2Fgithub.com%2Fkaspii314%2Ftool1_final_project%2Fblob%2Fmain%2Fmet_open_access.ipynb)
